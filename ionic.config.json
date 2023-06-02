@@ -1,0 +1,7 @@
+{
+  "name": "appFintech",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
