@@ -1,0 +1,41 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-menu-button slot="start"></ion-menu-button>
+    <ion-title>Sua conta</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+
+  <ion-card>
+    <ion-card-header><h2>Informações da sua conta</h2></ion-card-header>
+
+    <ion-card-content>
+      <ion-list>
+        <ion-item>
+          <ion-label>
+            Número da conta: 33458-95
+          </ion-label>
+        </ion-item>
+
+        <ion-item>
+          <ion-label>
+           Cliente: Fulano Ciclano de Tals
+          </ion-label>
+        </ion-item>
+
+        <ion-item>
+          <ion-label>
+           Saldo da Conta:
+           <ion-label>
+            <ion-button id="ver" fill="outline" color="dark" (click)="verSaldo()" size="small"> Clique para vizualizar <ion-icon name="eye-outline"></ion-icon></ion-button>
+            <p id="saldo" hidden="true">R$ 4.452,35</p>
+           </ion-label>
+          </ion-label>
+        </ion-item>
+
+      </ion-list>
+    </ion-card-content>
+  </ion-card>
+
+</ion-content>

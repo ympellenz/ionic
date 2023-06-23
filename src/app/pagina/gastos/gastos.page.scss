@@ -1,0 +1,33 @@
+ion-toolbar {
+    --background: #6ba000;
+    --color: white;
+}
+
+ion-card, ion-card-subtitle {
+    text-align: center;
+    --color: var(--ion-color-dark);
+}
+
+ion-thumbnail {
+    width: fit-content;
+}
+
+div.input-wrapper {
+    --inner-border-width: 0 0 0 0 !important;
+}
+
+#tesouro {
+    background-color: #c4e19d;
+}
+
+#acoes {
+    background-color: #ace463;
+}
+
+#credito {
+    background-color: #fad161;
+}
+
+#debito {
+    background-color: #f3af60;
+}

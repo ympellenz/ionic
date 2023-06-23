@@ -1,0 +1,17 @@
+ion-toolbar {
+    --background: #6ba000;
+    --color: white;
+}
+
+ion-card, ion-card-subtitle {
+    text-align: center;
+    --color: var(--ion-color-dark);
+}
+
+ion-thumbnail {
+    width: fit-content;
+}
+
+ion-item::content {
+    background-color: #c4e19d;
+}

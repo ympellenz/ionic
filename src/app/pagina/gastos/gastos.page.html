@@ -1,0 +1,86 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-menu-button slot="start"></ion-menu-button>
+    <ion-title>Seu perfil de gastos</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+
+  <ion-card>
+    <ion-card-header><h2>Veja em que categorias você está gastando</h2></ion-card-header>
+  </ion-card>
+
+  <ion-card id="tesouro">
+    <ion-card-content>
+      <ion-list>
+        <ion-item>
+          <ion-thumbnail slot="start">
+            <img alt="Tesouro Direto" width="100%" src="https://cdn-icons-png.flaticon.com/512/2746/2746095.png" />
+          </ion-thumbnail>
+          <ion-label>
+            Tesouro Direto (Investimento)
+            <ion-label>
+              Valor: R$ 2.465,12
+            </ion-label>
+          </ion-label>
+        </ion-item>
+      </ion-list>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card id="acoes">
+    <ion-card-content>
+      <ion-list>
+        <ion-item>
+          <ion-thumbnail slot="start">
+            <img alt="Ações" width="100%" src="https://cdn-icons-png.flaticon.com/512/846/846043.png" />
+          </ion-thumbnail>
+          <ion-label>
+            Ações (Investimento)
+            <ion-label>
+              Valor: R$ 9.210,69
+            </ion-label>
+          </ion-label>
+        </ion-item>
+      </ion-list>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card id="credito">
+    <ion-card-content>
+      <ion-list>
+        <ion-item>
+          <ion-thumbnail slot="start">
+            <img alt="Carão de Crédito" width="100%" src="https://cdn-icons-png.flaticon.com/512/271/271035.png" />
+          </ion-thumbnail>
+          <ion-label>
+            Cartão de Crédito
+            <ion-label>
+              Valor: R$ 956,89
+            </ion-label>
+          </ion-label>
+        </ion-item>
+      </ion-list>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card id="debito">
+    <ion-card-content>
+      <ion-list>
+        <ion-item>
+          <ion-thumbnail slot="start">
+            <img alt="Cartão de Débito" width="100%" src="https://cdn-icons-png.flaticon.com/512/4021/4021708.png" />
+          </ion-thumbnail>
+          <ion-label>
+            Cartão de Débito
+            <ion-label>
+              Valor: R$ 140,00
+            </ion-label>
+          </ion-label>
+        </ion-item>
+      </ion-list>
+    </ion-card-content>
+  </ion-card>
+
+</ion-content>
